@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cat_Year" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpK-xu-lED">
+                                <rect key="frame" x="37.5" y="30" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GfD-2i-3OX"/>
+                                    <constraint firstAttribute="width" constant="300" id="du9-ZQ-FBF"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Cat Year">
+                                        <attributes>
+                                            <color key="NSColor" red="0.45926029374814786" green="0.24724190281643554" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="29" name="Arial-BoldItalicMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="shadowColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="0.60509417808219179" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19U-hg-WGk">
+                                <rect key="frame" x="109.5" y="100" width="156" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="How old is Your Cat?">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPS-ItalicMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="answer in number the age of your cat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaL-lk-3ni">
+                                <rect key="frame" x="53.5" y="140" width="268" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9h4-th-zVO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DAJ-Ng-8DA">
+                                <rect key="frame" x="87.5" y="210" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SJl-IM-6YO"/>
+                                    <constraint firstAttribute="width" constant="200" id="wju-eq-4ZS"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Get Age In Cat Years">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="getCatAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yjz-3w-6QL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6u-Zl-g6v">
+                                <rect key="frame" x="20" y="280" width="335" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpinelSun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qma-zG-ACb">
+                                <rect key="frame" x="62.5" y="336.5" width="250" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="4Ov-hM-z3Q"/>
+                                    <constraint firstAttribute="height" constant="300" id="yra-mz-Sks"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="19U-hg-WGk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8nT-HR-LuC"/>
+                            <constraint firstItem="NaL-lk-3ni" firstAttribute="top" secondItem="19U-hg-WGk" secondAttribute="bottom" constant="20" id="DkK-lZ-ibH"/>
+                            <constraint firstItem="NaL-lk-3ni" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E8I-xo-9wI"/>
+                            <constraint firstItem="hpK-xu-lED" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M5z-8o-U5W"/>
+                            <constraint firstItem="hpK-xu-lED" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="SkK-eC-ylp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V6u-Zl-g6v" secondAttribute="trailing" constant="20" id="bXx-I3-WCb"/>
+                            <constraint firstItem="DAJ-Ng-8DA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bfz-X2-3hK"/>
+                            <constraint firstItem="qma-zG-ACb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fWa-56-yUY"/>
+                            <constraint firstItem="V6u-Zl-g6v" firstAttribute="top" secondItem="DAJ-Ng-8DA" secondAttribute="bottom" constant="20" id="fZa-EU-k2G"/>
+                            <constraint firstItem="V6u-Zl-g6v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fh0-8x-Y8s"/>
+                            <constraint firstItem="qma-zG-ACb" firstAttribute="top" secondItem="V6u-Zl-g6v" secondAttribute="bottom" constant="30" id="ig6-X6-uI7"/>
+                            <constraint firstItem="DAJ-Ng-8DA" firstAttribute="top" secondItem="NaL-lk-3ni" secondAttribute="bottom" constant="20" id="wdw-cu-2Ik"/>
+                            <constraint firstItem="19U-hg-WGk" firstAttribute="top" secondItem="hpK-xu-lED" secondAttribute="bottom" constant="20" id="yZV-nz-xKZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="answer" destination="NaL-lk-3ni" id="lt1-38-TAq"/>
+                        <outlet property="catAge" destination="V6u-Zl-g6v" id="DQp-eS-1XK"/>
+                        <outlet property="getCatAge" destination="DAJ-Ng-8DA" id="I3P-A3-dia"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="128.18590704647679"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SpinelSun.jpg" width="344.57144165039062" height="580.52569580078125"/>
+    </resources>
+</document>
