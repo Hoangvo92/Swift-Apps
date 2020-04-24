@@ -29,3 +29,12 @@ Cat Year App:
              }
              
              >
+
+GuessingGame App:
+-The user enters a number from 0 to 10 as numbers of fingers. Then user presses a button
+ -The app will enegerate a random number and check whether the user guessed right
+ 
+ Is It Prime App:
+ -The user enters a random number. Then user presses a button
+ -The app will check whether the number is prime
+

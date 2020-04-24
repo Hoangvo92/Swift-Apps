@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Is It Prime
 //
-//  Created by Rob Percival on 12/07/2016.
-//  Copyright © 2016 Appfish. All rights reserved.
+//  Created by Hoang Vo on 23/04/2020.
+//  Copyright © 2020 Appfish. All rights reserved.
 //
 
 import UIKit
