@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var output: UILabel!
     
     @IBAction func guessButton(_ sender: UIButton) {
-        let correctNumber = Int.random(in: 1 ... 5)
+        let correctNumber = Int.random(in: 0 ... 10)
         
         if let stringVar = guessNumber.text{
             if let numberVar = Int(stringVar){

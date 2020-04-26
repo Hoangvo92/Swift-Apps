@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89456E2E245530E3006777CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89456E2D245530E3006777CE /* AppDelegate.swift */; };
+		89456E30245530E3006777CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89456E2F245530E3006777CE /* SceneDelegate.swift */; };
+		89456E32245530E3006777CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89456E31245530E3006777CE /* ViewController.swift */; };
+		89456E35245530E3006777CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89456E33245530E3006777CE /* Main.storyboard */; };
+		89456E37245530E5006777CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89456E36245530E5006777CE /* Assets.xcassets */; };
+		89456E3A245530E5006777CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89456E38245530E5006777CE /* LaunchScreen.storyboard */; };
+		89456E45245530E5006777CE /* Time_Table_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89456E44245530E5006777CE /* Time_Table_AppTests.swift */; };
+		89456E50245530E5006777CE /* Time_Table_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89456E4F245530E5006777CE /* Time_Table_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89456E41245530E5006777CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89456E22245530E3006777CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89456E29245530E3006777CE;
+			remoteInfo = "Time Table App";
+		};
+		89456E4C245530E5006777CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89456E22245530E3006777CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89456E29245530E3006777CE;
+			remoteInfo = "Time Table App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89456E2A245530E3006777CE /* Time Table App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Table App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89456E2D245530E3006777CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89456E2F245530E3006777CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89456E31245530E3006777CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89456E34245530E3006777CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89456E36245530E5006777CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89456E39245530E5006777CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89456E3B245530E5006777CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89456E40245530E5006777CE /* Time Table AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Table AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89456E44245530E5006777CE /* Time_Table_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Table_AppTests.swift; sourceTree = "<group>"; };
+		89456E46245530E5006777CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89456E4B245530E5006777CE /* Time Table AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Table AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89456E4F245530E5006777CE /* Time_Table_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Table_AppUITests.swift; sourceTree = "<group>"; };
+		89456E51245530E5006777CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89456E27245530E3006777CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E3D245530E5006777CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E48245530E5006777CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89456E21245530E3006777CE = {
+			isa = PBXGroup;
+			children = (
+				89456E2C245530E3006777CE /* Time Table App */,
+				89456E43245530E5006777CE /* Time Table AppTests */,
+				89456E4E245530E5006777CE /* Time Table AppUITests */,
+				89456E2B245530E3006777CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89456E2B245530E3006777CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89456E2A245530E3006777CE /* Time Table App.app */,
+				89456E40245530E5006777CE /* Time Table AppTests.xctest */,
+				89456E4B245530E5006777CE /* Time Table AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89456E2C245530E3006777CE /* Time Table App */ = {
+			isa = PBXGroup;
+			children = (
+				89456E2D245530E3006777CE /* AppDelegate.swift */,
+				89456E2F245530E3006777CE /* SceneDelegate.swift */,
+				89456E31245530E3006777CE /* ViewController.swift */,
+				89456E33245530E3006777CE /* Main.storyboard */,
+				89456E36245530E5006777CE /* Assets.xcassets */,
+				89456E38245530E5006777CE /* LaunchScreen.storyboard */,
+				89456E3B245530E5006777CE /* Info.plist */,
+			);
+			path = "Time Table App";
+			sourceTree = "<group>";
+		};
+		89456E43245530E5006777CE /* Time Table AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				89456E44245530E5006777CE /* Time_Table_AppTests.swift */,
+				89456E46245530E5006777CE /* Info.plist */,
+			);
+			path = "Time Table AppTests";
+			sourceTree = "<group>";
+		};
+		89456E4E245530E5006777CE /* Time Table AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89456E4F245530E5006777CE /* Time_Table_AppUITests.swift */,
+				89456E51245530E5006777CE /* Info.plist */,
+			);
+			path = "Time Table AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89456E29245530E3006777CE /* Time Table App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89456E54245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table App" */;
+			buildPhases = (
+				89456E26245530E3006777CE /* Sources */,
+				89456E27245530E3006777CE /* Frameworks */,
+				89456E28245530E3006777CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Table App";
+			productName = "Time Table App";
+			productReference = 89456E2A245530E3006777CE /* Time Table App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89456E3F245530E5006777CE /* Time Table AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89456E57245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table AppTests" */;
+			buildPhases = (
+				89456E3C245530E5006777CE /* Sources */,
+				89456E3D245530E5006777CE /* Frameworks */,
+				89456E3E245530E5006777CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89456E42245530E5006777CE /* PBXTargetDependency */,
+			);
+			name = "Time Table AppTests";
+			productName = "Time Table AppTests";
+			productReference = 89456E40245530E5006777CE /* Time Table AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89456E4A245530E5006777CE /* Time Table AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89456E5A245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table AppUITests" */;
+			buildPhases = (
+				89456E47245530E5006777CE /* Sources */,
+				89456E48245530E5006777CE /* Frameworks */,
+				89456E49245530E5006777CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89456E4D245530E5006777CE /* PBXTargetDependency */,
+			);
+			name = "Time Table AppUITests";
+			productName = "Time Table AppUITests";
+			productReference = 89456E4B245530E5006777CE /* Time Table AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89456E22245530E3006777CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Hoang Vo";
+				TargetAttributes = {
+					89456E29245530E3006777CE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					89456E3F245530E5006777CE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89456E29245530E3006777CE;
+					};
+					89456E4A245530E5006777CE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89456E29245530E3006777CE;
+					};
+				};
+			};
+			buildConfigurationList = 89456E25245530E3006777CE /* Build configuration list for PBXProject "Time Table App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89456E21245530E3006777CE;
+			productRefGroup = 89456E2B245530E3006777CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89456E29245530E3006777CE /* Time Table App */,
+				89456E3F245530E5006777CE /* Time Table AppTests */,
+				89456E4A245530E5006777CE /* Time Table AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89456E28245530E3006777CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89456E3A245530E5006777CE /* LaunchScreen.storyboard in Resources */,
+				89456E37245530E5006777CE /* Assets.xcassets in Resources */,
+				89456E35245530E3006777CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E3E245530E5006777CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E49245530E5006777CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89456E26245530E3006777CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89456E32245530E3006777CE /* ViewController.swift in Sources */,
+				89456E2E245530E3006777CE /* AppDelegate.swift in Sources */,
+				89456E30245530E3006777CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E3C245530E5006777CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89456E45245530E5006777CE /* Time_Table_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89456E47245530E5006777CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89456E50245530E5006777CE /* Time_Table_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89456E42245530E5006777CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89456E29245530E3006777CE /* Time Table App */;
+			targetProxy = 89456E41245530E5006777CE /* PBXContainerItemProxy */;
+		};
+		89456E4D245530E5006777CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89456E29245530E3006777CE /* Time Table App */;
+			targetProxy = 89456E4C245530E5006777CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89456E33245530E3006777CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89456E34245530E3006777CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89456E38245530E5006777CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89456E39245530E5006777CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89456E52245530E5006777CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89456E53245530E5006777CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89456E55245530E5006777CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89456E56245530E5006777CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89456E58245530E5006777CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Table App.app/Time Table App";
+			};
+			name = Debug;
+		};
+		89456E59245530E5006777CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Table App.app/Time Table App";
+			};
+			name = Release;
+		};
+		89456E5B245530E5006777CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Table App";
+			};
+			name = Debug;
+		};
+		89456E5C245530E5006777CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "Time Table AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.Time-Table-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Table App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89456E25245530E3006777CE /* Build configuration list for PBXProject "Time Table App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89456E52245530E5006777CE /* Debug */,
+				89456E53245530E5006777CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89456E54245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89456E55245530E5006777CE /* Debug */,
+				89456E56245530E5006777CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89456E57245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89456E58245530E5006777CE /* Debug */,
+				89456E59245530E5006777CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89456E5A245530E5006777CE /* Build configuration list for PBXNativeTarget "Time Table AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89456E5B245530E5006777CE /* Debug */,
+				89456E5C245530E5006777CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89456E22245530E3006777CE /* Project object */;
+}
