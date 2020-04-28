@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="What_s_The_Weather__App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1" translatesAutoresizingMaskIntoConstraints="NO" id="ATc-x4-md8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5go-qB-udZ">
+                                <rect key="frame" x="50.5" y="40" width="274.5" height="33.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="What's The Weather?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.96901699622696935" green="1" blue="0.21858911380565471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="29" name="Baskerville-SemiBoldItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJI-UG-Tms">
+                                <rect key="frame" x="107" y="88.5" width="161.5" height="24.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Enter your  City:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.66945888955474109" blue="0.17390021764796826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg: Tokyo" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DH6-pA-XC0">
+                                <rect key="frame" x="20" y="143" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dSd-5A-i0a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbf-lj-98R">
+                                <rect key="frame" x="149.5" y="203" width="76" height="20"/>
+                                <state key="normal" image="o.square.fill" catalog="system">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Submit">
+                                            <attributes>
+                                                <color key="NSColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name="TimesNewRomanPS-BoldMT"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpJ-tV-paW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwZ-nJ-ymN">
+                                <rect key="frame" x="20" y="273" width="335" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ATc-x4-md8" secondAttribute="bottom" id="24A-Kd-bLM"/>
+                            <constraint firstItem="ATc-x4-md8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2Yb-Ja-YZ8"/>
+                            <constraint firstItem="hwZ-nJ-ymN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4c6-8D-CWy"/>
+                            <constraint firstItem="KJI-UG-Tms" firstAttribute="top" secondItem="5go-qB-udZ" secondAttribute="bottom" constant="15" id="ETB-iz-OyO"/>
+                            <constraint firstItem="hwZ-nJ-ymN" firstAttribute="top" secondItem="Nbf-lj-98R" secondAttribute="bottom" constant="50" id="It1-8m-X1E"/>
+                            <constraint firstItem="5go-qB-udZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JKs-xk-fGb"/>
+                            <constraint firstItem="DH6-pA-XC0" firstAttribute="top" secondItem="KJI-UG-Tms" secondAttribute="bottom" constant="30" id="U9x-qJ-Xg6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ATc-x4-md8" secondAttribute="trailing" id="WEc-C8-t9R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DH6-pA-XC0" secondAttribute="trailing" constant="20" id="Y32-XG-Azy"/>
+                            <constraint firstItem="5go-qB-udZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="jyW-Nk-hL6"/>
+                            <constraint firstItem="DH6-pA-XC0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mLN-25-fEe"/>
+                            <constraint firstItem="Nbf-lj-98R" firstAttribute="top" secondItem="DH6-pA-XC0" secondAttribute="bottom" constant="20" id="mWh-bc-YXz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hwZ-nJ-ymN" secondAttribute="trailing" constant="20" id="pno-NV-I3s"/>
+                            <constraint firstItem="ATc-x4-md8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sCr-Wq-8kb"/>
+                            <constraint firstItem="Nbf-lj-98R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x56-yf-5od"/>
+                            <constraint firstItem="KJI-UG-Tms" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xmK-lk-6YT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cityTextField" destination="DH6-pA-XC0" id="jtm-rk-wdc"/>
+                        <outlet property="outputInfor" destination="hwZ-nJ-ymN" id="t8P-i9-QIl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="o.square.fill" catalog="system" width="64" height="56"/>
+        <image name="photo1" width="1000" height="1250"/>
+    </resources>
+</document>
