@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89851CD424846B5F000DFF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89851CD324846B5F000DFF41 /* AppDelegate.swift */; };
+		89851CD624846B5F000DFF41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89851CD524846B5F000DFF41 /* SceneDelegate.swift */; };
+		89851CD824846B5F000DFF41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89851CD724846B5F000DFF41 /* ViewController.swift */; };
+		89851CDB24846B5F000DFF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89851CD924846B5F000DFF41 /* Main.storyboard */; };
+		89851CDD24846B61000DFF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89851CDC24846B61000DFF41 /* Assets.xcassets */; };
+		89851CE024846B61000DFF41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89851CDE24846B61000DFF41 /* LaunchScreen.storyboard */; };
+		89851CEB24846B62000DFF41 /* sound_shaker_starry_night_starry_seaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89851CEA24846B62000DFF41 /* sound_shaker_starry_night_starry_seaTests.swift */; };
+		89851CF624846B62000DFF41 /* sound_shaker_starry_night_starry_seaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89851CF524846B62000DFF41 /* sound_shaker_starry_night_starry_seaUITests.swift */; };
+		89851D0A24846E24000DFF41 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 89851D0924846E24000DFF41 /* music */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89851CE724846B62000DFF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89851CC824846B5F000DFF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89851CCF24846B5F000DFF41;
+			remoteInfo = "sound shaker starry night starry sea";
+		};
+		89851CF224846B62000DFF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89851CC824846B5F000DFF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89851CCF24846B5F000DFF41;
+			remoteInfo = "sound shaker starry night starry sea";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89851CD024846B5F000DFF41 /* sound shaker starry night starry sea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sound shaker starry night starry sea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89851CD324846B5F000DFF41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89851CD524846B5F000DFF41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89851CD724846B5F000DFF41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89851CDA24846B5F000DFF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89851CDC24846B61000DFF41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89851CDF24846B61000DFF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89851CE124846B61000DFF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89851CE624846B62000DFF41 /* sound shaker starry night starry seaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound shaker starry night starry seaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89851CEA24846B62000DFF41 /* sound_shaker_starry_night_starry_seaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_shaker_starry_night_starry_seaTests.swift; sourceTree = "<group>"; };
+		89851CEC24846B62000DFF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89851CF124846B62000DFF41 /* sound shaker starry night starry seaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound shaker starry night starry seaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89851CF524846B62000DFF41 /* sound_shaker_starry_night_starry_seaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_shaker_starry_night_starry_seaUITests.swift; sourceTree = "<group>"; };
+		89851CF724846B62000DFF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89851D0924846E24000DFF41 /* music */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = music; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89851CCD24846B5F000DFF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CE324846B62000DFF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CEE24846B62000DFF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89851CC724846B5F000DFF41 = {
+			isa = PBXGroup;
+			children = (
+				89851CD224846B5F000DFF41 /* sound shaker starry night starry sea */,
+				89851CE924846B62000DFF41 /* sound shaker starry night starry seaTests */,
+				89851CF424846B62000DFF41 /* sound shaker starry night starry seaUITests */,
+				89851CD124846B5F000DFF41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89851CD124846B5F000DFF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89851CD024846B5F000DFF41 /* sound shaker starry night starry sea.app */,
+				89851CE624846B62000DFF41 /* sound shaker starry night starry seaTests.xctest */,
+				89851CF124846B62000DFF41 /* sound shaker starry night starry seaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89851CD224846B5F000DFF41 /* sound shaker starry night starry sea */ = {
+			isa = PBXGroup;
+			children = (
+				89851CD324846B5F000DFF41 /* AppDelegate.swift */,
+				89851CD524846B5F000DFF41 /* SceneDelegate.swift */,
+				89851CD724846B5F000DFF41 /* ViewController.swift */,
+				89851CD924846B5F000DFF41 /* Main.storyboard */,
+				89851CDC24846B61000DFF41 /* Assets.xcassets */,
+				89851D0924846E24000DFF41 /* music */,
+				89851CDE24846B61000DFF41 /* LaunchScreen.storyboard */,
+				89851CE124846B61000DFF41 /* Info.plist */,
+			);
+			path = "sound shaker starry night starry sea";
+			sourceTree = "<group>";
+		};
+		89851CE924846B62000DFF41 /* sound shaker starry night starry seaTests */ = {
+			isa = PBXGroup;
+			children = (
+				89851CEA24846B62000DFF41 /* sound_shaker_starry_night_starry_seaTests.swift */,
+				89851CEC24846B62000DFF41 /* Info.plist */,
+			);
+			path = "sound shaker starry night starry seaTests";
+			sourceTree = "<group>";
+		};
+		89851CF424846B62000DFF41 /* sound shaker starry night starry seaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89851CF524846B62000DFF41 /* sound_shaker_starry_night_starry_seaUITests.swift */,
+				89851CF724846B62000DFF41 /* Info.plist */,
+			);
+			path = "sound shaker starry night starry seaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89851CCF24846B5F000DFF41 /* sound shaker starry night starry sea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89851CFA24846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry sea" */;
+			buildPhases = (
+				89851CCC24846B5F000DFF41 /* Sources */,
+				89851CCD24846B5F000DFF41 /* Frameworks */,
+				89851CCE24846B5F000DFF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sound shaker starry night starry sea";
+			productName = "sound shaker starry night starry sea";
+			productReference = 89851CD024846B5F000DFF41 /* sound shaker starry night starry sea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89851CE524846B62000DFF41 /* sound shaker starry night starry seaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89851CFD24846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry seaTests" */;
+			buildPhases = (
+				89851CE224846B62000DFF41 /* Sources */,
+				89851CE324846B62000DFF41 /* Frameworks */,
+				89851CE424846B62000DFF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89851CE824846B62000DFF41 /* PBXTargetDependency */,
+			);
+			name = "sound shaker starry night starry seaTests";
+			productName = "sound shaker starry night starry seaTests";
+			productReference = 89851CE624846B62000DFF41 /* sound shaker starry night starry seaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89851CF024846B62000DFF41 /* sound shaker starry night starry seaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89851D0024846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry seaUITests" */;
+			buildPhases = (
+				89851CED24846B62000DFF41 /* Sources */,
+				89851CEE24846B62000DFF41 /* Frameworks */,
+				89851CEF24846B62000DFF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89851CF324846B62000DFF41 /* PBXTargetDependency */,
+			);
+			name = "sound shaker starry night starry seaUITests";
+			productName = "sound shaker starry night starry seaUITests";
+			productReference = 89851CF124846B62000DFF41 /* sound shaker starry night starry seaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89851CC824846B5F000DFF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Hoang Vo";
+				TargetAttributes = {
+					89851CCF24846B5F000DFF41 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					89851CE524846B62000DFF41 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89851CCF24846B5F000DFF41;
+					};
+					89851CF024846B62000DFF41 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89851CCF24846B5F000DFF41;
+					};
+				};
+			};
+			buildConfigurationList = 89851CCB24846B5F000DFF41 /* Build configuration list for PBXProject "sound shaker starry night starry sea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89851CC724846B5F000DFF41;
+			productRefGroup = 89851CD124846B5F000DFF41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89851CCF24846B5F000DFF41 /* sound shaker starry night starry sea */,
+				89851CE524846B62000DFF41 /* sound shaker starry night starry seaTests */,
+				89851CF024846B62000DFF41 /* sound shaker starry night starry seaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89851CCE24846B5F000DFF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89851CE024846B61000DFF41 /* LaunchScreen.storyboard in Resources */,
+				89851CDD24846B61000DFF41 /* Assets.xcassets in Resources */,
+				89851CDB24846B5F000DFF41 /* Main.storyboard in Resources */,
+				89851D0A24846E24000DFF41 /* music in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CE424846B62000DFF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CEF24846B62000DFF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89851CCC24846B5F000DFF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89851CD824846B5F000DFF41 /* ViewController.swift in Sources */,
+				89851CD424846B5F000DFF41 /* AppDelegate.swift in Sources */,
+				89851CD624846B5F000DFF41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CE224846B62000DFF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89851CEB24846B62000DFF41 /* sound_shaker_starry_night_starry_seaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89851CED24846B62000DFF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89851CF624846B62000DFF41 /* sound_shaker_starry_night_starry_seaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89851CE824846B62000DFF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89851CCF24846B5F000DFF41 /* sound shaker starry night starry sea */;
+			targetProxy = 89851CE724846B62000DFF41 /* PBXContainerItemProxy */;
+		};
+		89851CF324846B62000DFF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89851CCF24846B5F000DFF41 /* sound shaker starry night starry sea */;
+			targetProxy = 89851CF224846B62000DFF41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89851CD924846B5F000DFF41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89851CDA24846B5F000DFF41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89851CDE24846B61000DFF41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89851CDF24846B61000DFF41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89851CF824846B62000DFF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89851CF924846B62000DFF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89851CFB24846B62000DFF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry sea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-sea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89851CFC24846B62000DFF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry sea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-sea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89851CFE24846B62000DFF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry seaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-seaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sound shaker starry night starry sea.app/sound shaker starry night starry sea";
+			};
+			name = Debug;
+		};
+		89851CFF24846B62000DFF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry seaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-seaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sound shaker starry night starry sea.app/sound shaker starry night starry sea";
+			};
+			name = Release;
+		};
+		89851D0124846B62000DFF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry seaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-seaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sound shaker starry night starry sea";
+			};
+			name = Debug;
+		};
+		89851D0224846B62000DFF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T57KGCR6C8;
+				INFOPLIST_FILE = "sound shaker starry night starry seaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang.sound-shaker-starry-night-starry-seaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sound shaker starry night starry sea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89851CCB24846B5F000DFF41 /* Build configuration list for PBXProject "sound shaker starry night starry sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89851CF824846B62000DFF41 /* Debug */,
+				89851CF924846B62000DFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89851CFA24846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89851CFB24846B62000DFF41 /* Debug */,
+				89851CFC24846B62000DFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89851CFD24846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry seaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89851CFE24846B62000DFF41 /* Debug */,
+				89851CFF24846B62000DFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89851D0024846B62000DFF41 /* Build configuration list for PBXNativeTarget "sound shaker starry night starry seaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89851D0124846B62000DFF41 /* Debug */,
+				89851D0224846B62000DFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89851CC824846B5F000DFF41 /* Project object */;
+}
