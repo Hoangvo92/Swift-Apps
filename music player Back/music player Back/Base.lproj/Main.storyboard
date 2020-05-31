@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="music_player_Back" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hT7-jC-Lkl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="asW-Mc-H2z"/>
+                                    <barButtonItem title="Prisoner" id="Rf8-Vt-RkK"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1Lw-cM-xfW"/>
+                                    <barButtonItem systemItem="play" id="p53-Tu-af1">
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" id="9pZ-MP-CED"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOK-D8-pUY">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="YY8-8M-pdp">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="1XU-So-6T4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BEy-FA-bBB"/>
+                                    <barButtonItem title="Stop" id="d09-mJ-lGI">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="aoc-Eu-8Rd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuwaShouta" translatesAutoresizingMaskIntoConstraints="NO" id="iUd-ef-bln">
+                                <rect key="frame" x="90" y="64" width="195" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="nSx-Bv-rxr"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tkr-YL-1Pg">
+                                <rect key="frame" x="48" y="434" width="279" height="31"/>
+                                <connections>
+                                    <action selector="soundSliderMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="0RW-Ur-uYi"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aPN-Cu-6lB">
+                                <rect key="frame" x="48" y="564" width="279" height="31"/>
+                                <connections>
+                                    <action selector="timeSliderMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="JD6-UZ-JLI"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utG-VC-GLF">
+                                <rect key="frame" x="158.5" y="404" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tkr-YL-1Pg" secondAttribute="trailing" constant="50" id="3b5-Zj-RnL"/>
+                            <constraint firstItem="gOK-D8-pUY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3nc-II-iSk"/>
+                            <constraint firstItem="aPN-Cu-6lB" firstAttribute="top" secondItem="Tkr-YL-1Pg" secondAttribute="bottom" constant="100" id="6m5-L3-VXG"/>
+                            <constraint firstItem="iUd-ef-bln" firstAttribute="top" secondItem="hT7-jC-Lkl" secondAttribute="bottom" constant="20" id="BCd-5k-JlY"/>
+                            <constraint firstItem="gOK-D8-pUY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EGz-sZ-7Q4"/>
+                            <constraint firstItem="hT7-jC-Lkl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gd5-fA-wfg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aPN-Cu-6lB" secondAttribute="trailing" constant="50" id="Gir-58-lq7"/>
+                            <constraint firstItem="iUd-ef-bln" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="Jpt-VP-xz2"/>
+                            <constraint firstItem="aPN-Cu-6lB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="L18-Xh-0J3"/>
+                            <constraint firstItem="hT7-jC-Lkl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OZl-UA-5iF"/>
+                            <constraint firstItem="Tkr-YL-1Pg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="eri-HE-spK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iUd-ef-bln" secondAttribute="trailing" constant="90" id="fdu-LN-MJE"/>
+                            <constraint firstItem="gOK-D8-pUY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="npF-gy-8Ej"/>
+                            <constraint firstItem="hT7-jC-Lkl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r1V-Kg-KOm"/>
+                            <constraint firstItem="utG-VC-GLF" firstAttribute="top" secondItem="iUd-ef-bln" secondAttribute="bottom" constant="40" id="rrR-MQ-24z"/>
+                            <constraint firstItem="utG-VC-GLF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u5o-sV-34y"/>
+                            <constraint firstItem="Tkr-YL-1Pg" firstAttribute="top" secondItem="iUd-ef-bln" secondAttribute="bottom" constant="70" id="vm1-7t-hpK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="soundSlider" destination="Tkr-YL-1Pg" id="1iV-Nh-7yS"/>
+                        <outlet property="timeSlider" destination="aPN-Cu-6lB" id="Vsk-8g-dMK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fuwaShouta" width="295" height="480"/>
+    </resources>
+</document>
