@@ -235,7 +235,7 @@ Use Xcode 10 & Swift 4 to make real iOS12 apps like Uber and Instagram, with Cor
               table_view_outlet.reloadData()
           }
 
- -apply segue to connect views
+ -apply segue to connect views +  transfer data between views via segue
  -apply delete feature of tableview
            
 
